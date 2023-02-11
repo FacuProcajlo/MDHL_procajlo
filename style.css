@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans" sans-serif ;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 70px;
+    
+    }
+   
+    h1 {
+        background-color: aquamarine; 
+        font-size: 100px;
+        display:inline;
+        position:absolute;
+        left:22%;
+        top:
+       
+
+    }
+    nav {
+        display:inline;
+        padding: 20px;
+        margin: 20px 10px 0px 850px;  
+        background-color: ; 
+        text-align: left;
+        position:absolute;
+        right: 21%;
+    
+    }
+    nav a{
+        text-decoration: none;
+    }
+    #home {
+        display:inline;
+        padding: 10px;
+        border: 5px solid red; 
+        margin: 20px;   
+        background-color: aquamarine; 
+
+    }
+    #home:hover{
+        color:blue;
+        background-color: deeppink;
+    }
+    #home:active{
+        color:red;
+        background-color: blue;
+    }
+ 
+
+    #about {
+        display:inline;
+        padding: 10px;
+        border: 5px solid red; 
+        margin: 20px;  
+        background-color: aquamarine; 
+    }
+    #about:hover{
+        color:blue;
+        background-color: deeppink;
+    }
+    #about:active{
+        color:red;
+        color:blue
+    }
+    
+    #contact{
+        display:inline;
+        padding: 10px;
+        border: 5px solid red; 
+        margin: 20px;  
+        background-color: aquamarine; 
+    }
+    #contact:hover{
+        color:blue;
+        background-color: deeppink;
+    }
+    #contact:active{
+        background-color:red;
+        color:blue
+    }
+    
+   header figure{
+        border: 30px solid deeppink; 
+        background-color: aquamarine;
+        display: block;
+        
+        
+   }
+    #portada{
+        width: 3000px;;
+    }
+    main h2{
+        border: 0.5rem outset pink;
+  outline: 0.5rem solid khaki;
+  box-shadow: 0 0 0 2rem skyblue;
+  border-radius: 12px;
+  margin: 2rem;
+  padding: 1rem;
+  outline-offset: 0.5rem;
+        background-color:aquamarine ; 
+        font-size: 90px;
+    }
+   
+     #logo{
+        width: 500px;
+        padding: 50px;
+        border: 5px solid deeppink; 
+        margin: 70px;  
+        display: inline ;
+        position: absolute;
+        left: 5%;
+        top:10%;
+     }
+   #hockey {
+        height: ;
+        width: 610px;
+        padding: 50px;
+        border: 5px solid deeppink; 
+        margin: 70px;  
+        display: inline ;
+        position: absolute;
+        right: 5%;
+        top:10%;
+    }
+    
+   
+    main div{
+        border: 0.5rem outset pink;
+  outline: 0.5rem solid khaki;
+  box-shadow: 0 0 0 2rem skyblue;
+  border-radius: 12px;
+
+  margin: 2rem;
+  padding: 1rem;
+  outline-offset: 0.5rem;
+        background-color:aquamarine ; 
+        font-size: 120px; 
+        background-color: aquamarine;
+        display: block;
+    }
+    main h3{
+        font-size: 80px;
+    }
+    img{
+        transition: transform 1s;
+        
+    }
+    #logo:hover {
+transform: translate(120px, 50%);
+    }
+    #hockey:hover {
+        transform: translate(120px, 50%);
+    }
+    
