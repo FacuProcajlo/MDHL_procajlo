@@ -4,20 +4,17 @@
     font-family: sans-serif;
     text-align: center;
     box-sizing: border-box;
-    font-size: 70px;
-    
+    font-size: 3vh;
     }
-   
+
     h1 {
         background-color: aquamarine; 
-        font-size: 100px;
-        margin: 
+        font-size: 6vh;
         display:flex;
         justify-content:center;
     }
+
     nav {
-        padding: 20px;
-         
         text-align: left;
         display:flex;
         justify-content: center;
@@ -26,12 +23,17 @@
     }
     nav a{
         text-decoration: none;
+       
+    }
+    a[href="#"] {
+        font-weight: bolder;
+
     }
     #home {
         display:inline;
-        padding: 10px;
-        border: 5px solid red; 
-        margin: 20px;   
+        padding: 1vh;
+        border: 1vh solid red; 
+        margin: 1vh;   
         background-color: aquamarine; 
 
     }
@@ -47,9 +49,9 @@
 
     #about {
         display:inline;
-        padding: 10px;
-        border: 5px solid red; 
-        margin: 20px;  
+        padding: 1vh;
+        border: 1vh solid red; 
+        margin: 1vh;   
         background-color: aquamarine; 
     }
     #about:hover{
@@ -63,9 +65,9 @@
     
     #contact{
         display:inline;
-        padding: 10px;
-        border: 5px solid red; 
-        margin: 20px;  
+        padding: 1vh;
+        border: 1vh solid red; 
+        margin: 1vh;   
         background-color: aquamarine; 
     }
     #contact:hover{
@@ -78,9 +80,9 @@
     }
     #game{
         display:inline;
-        padding: 10px;
-        border: 5px solid red; 
-        margin: 20px;  
+        padding: 1vh;
+        border: 1vh solid red; 
+        margin: 1vh;   
         background-color: aquamarine; 
     }
     #game:hover{
@@ -93,9 +95,9 @@
     }
     #rules{
         display:inline;
-        padding: 10px;
-        border: 5px solid red; 
-        margin: 20px;  
+        padding: 1vh;
+        border: 1vh solid red; 
+        margin: 1vh;   
         background-color: aquamarine; 
     }
     #rules:hover{
@@ -106,9 +108,23 @@
         background-color:red;
         color:blue
     }
-    
+    #registration{
+        display:inline;
+        padding: 1vh;
+        border: 1vh solid red; 
+        margin: 1vh;   
+        background-color: aquamarine; 
+    }
+    #registration:hover{
+        color:blue;
+        background-color: deeppink;
+    }
+    #registration:active{
+        background-color:red;
+        color:blue
+    }
    header figure{
-        border: 30px solid deeppink; 
+        border: 1vh solid deeppink; 
         background-color: aquamarine;
         display: flex;
         justify-content: space-around;
@@ -117,112 +133,165 @@
         
    }
     #portada{
-        width: 3000px;
+        width: 80vw;
     }
     .distinto{
-        border: 0.5rem outset pink;
-  outline: 0.5rem solid khaki;
+        outline: 0.5rem solid khaki;
+  border: 0.5rem outset pink;
   box-shadow: 0 0 0 2rem skyblue;
   border-radius: 12px;
   margin: 2rem;
   padding: 1rem;
   outline-offset: 0.5rem;
         background-color:aquamarine ; 
-        font-size: 90px;
+        font-size: 5vh;
     }
    
      #logo{
-        width: 700px;;
-        padding: 50px;
-        border: 5px solid deeppink; 
-        margin: 70px;  
+        width: 20vw;;
+        border: 1vh solid deeppink; 
+        margin: 5vh;  
      }
    #hockey {
-        width: 700px;
-        padding: 50px;
-        border: 5px solid deeppink; 
-        margin: 70px;  
+    width: 20vw;;
+    border: 1vh solid deeppink; 
+    margin: 5vh;  
    
+    }
+    #hockey_about{
+        width: 30vw;;
+    border: 1vh solid deeppink; 
+    margin: 5vh;  
+    }
+    #hockey_info{
+        height: 25vh;
+    border: 1vh solid deeppink; 
+    margin: 5vh;  
+    }
+    #hockey_rules{
+        height: 28vh;
+    border: 1vh solid deeppink; 
+    margin: 5vh;  
+    }
+    #hockey_registration{
+        height: 30vh;
+    border: 1vh solid deeppink; 
+    margin: 5vh;  
     }
     
    
     main div{
+        outline: 0.5rem solid khaki;
         border: 0.5rem outset pink;
-  outline: 0.5rem solid khaki;
-  box-shadow: 0 0 0 2rem skyblue;
-  border-radius: 12px;
-
-  margin: 2rem;
-  padding: 1rem;
-  outline-offset: 0.5rem;
-        background-color:aquamarine ; 
-        font-size: 120px; 
-        background-color: aquamarine;
+        box-shadow: 0 0 0 2rem skyblue;
+        border-radius: 1vh;
+        margin: 2rem;
+        padding: 1rem;
+        outline-offset: 0.5rem;
+              background-color:aquamarine ; 
+              font-size: 5vh;
         display: block;
     }
     main h3{
-        font-size: 80px;
+        font-size: 4vh;
     }
     img{
         transition: transform 1s;
         
     }
     #logo:hover {
-transform: translate(120px, 50%);
+transform: translate(2vh, 50%);
     }
     #hockey:hover {
-        transform: translate(120px, 50%);
+        transform: translate(2vh, 50%);
+    }
+    #hockey_about:hover {
+        transform: translate(2vh, 50%);
+    }
+    #hockey_info:hover {
+        transform: translate(2vh, 50%);
+    }
+    #hockey_rules:hover {
+        transform: translate(2vh, 50%);
+    }
+    #hockey_registration:hover {
+        transform: translate(2vh, 50%);
     }
     .letras {
         list-style-type: lower-latin;
         font-weight: normal;
     }
     article{
-        border: 0.5rem outset pink;
         outline: 0.5rem solid khaki;
+        border: 0.5rem outset pink;
         box-shadow: 0 0 0 2rem skyblue;
-        border-radius: 12px;
-      
+        border-radius: 1vh;
         margin: 2rem;
         padding: 1rem;
         outline-offset: 0.5rem;
               background-color:aquamarine ; 
-              font-size: 120px; 
-              background-color: aquamarine;
-              display: block;
+              font-size: 5vh;
+        display: block;
     }
     section{
-        border: 0.5rem outset pink;
         outline: 0.5rem solid khaki;
+        border: 0.5rem outset pink;
         box-shadow: 0 0 0 2rem skyblue;
-        border-radius: 12px;
-      
+        border-radius: 1vh;
         margin: 2rem;
         padding: 1rem;
         outline-offset: 0.5rem;
               background-color:aquamarine ; 
-              font-size: 120px; 
-              background-color: aquamarine;
-              display: block;
+              font-size: 5vh;
+        display: block;
     }
     table{
+        outline: 0.5rem solid khaki;
         border: 0.5rem outset pink;
-  outline: 0.5rem solid khaki;
-  box-shadow: 0 0 0 2rem skyblue;
-  border-radius: 12px;
-  margin: 2rem;
-  padding: 1rem;
-  outline-offset: 0.5rem;
-        background-color:aquamarine ; 
-        font-size: 120px; 
-        background-color: aquamarine;
+        box-shadow: 0 0 0 2rem skyblue;
+        border-radius: 1vh;
+        margin: 2rem;
+        padding: 1rem;
+        outline-offset: 0.5rem;
+              background-color:aquamarine ; 
+              font-size: 5vh;
         display: flex;
         justify-content: center;
     }
-    tr{
-      
-        
+    footer{
+        outline: 0.5rem solid khaki;
+        border: 0.5rem outset pink;
+        box-shadow: 0 0 0 2rem skyblue;
+        border-radius: 1vh;
+        margin: 2rem;
+        padding: 1rem;
+        outline-offset: 0.5rem;
+              background-color:aquamarine ; 
+              font-size: 5vh;
     }
+    header section{
+        outline: 0.5rem solid khaki;
+        border: 0.5rem outset pink;
+        box-shadow: 0 0 0 2rem skyblue;
+        border-radius: 1vh;
+        margin: 2rem;
+        padding: 1rem;
+        outline-offset: 0.5rem;
+              background-color:aquamarine ; 
+              font-size: 5vh;
+    }
+    main section{
+        outline: 0.5rem solid khaki;
+        border: 0.5rem outset pink;
+        box-shadow: 0 0 0 2rem skyblue;
+        border-radius: 1vh;
+        margin: 2rem;
+        padding: 1rem;
+        outline-offset: 0.5rem;
+              background-color:aquamarine ; 
+              font-size: 5vh;
+    }
+
     .dimensions{
         font-weight: bold;
     }
@@ -235,3 +304,25 @@ transform: translate(120px, 50%);
    li p{
     font-weight: normal;
    }
+  legend{
+    font-weight: bold;
+  }
+  table tr{
+    
+    border-collapse: separate;
+   background-color:yellow;
+  }
+  table tr td{
+    border:pink 20px solid;
+  }
+  input[type=radio] {
+    border: 0px;
+    width: 1em;
+    height: 1em;
+}
+input[type=checkbox] {
+    border: 0px;
+    width: 1em;
+    height: 1em;
+}
+ 
